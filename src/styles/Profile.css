@@ -1,0 +1,166 @@
+/* Profile Container */
+.profile-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Loader and Error Messages */
+  .loader {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Profile Card */
+  .profile-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  .edit-btn, .create-btn, .submit-btn, .cancel-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .create-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .submit-btn {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  /* Form Styling */
+  .profile-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-form div {
+    margin-bottom: 15px;
+  }
+  
+  .profile-form label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .profile-form input, 
+  .profile-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* No Profile Section */
+  .no-profile {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .profile-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .edit-btn, .create-btn, .submit-btn, .cancel-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .edit-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .create-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  .submit-btn {
+    background: #17a2b8;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .profile-form input,
+  .profile-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loader {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  
